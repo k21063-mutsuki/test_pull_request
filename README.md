@@ -34,6 +34,13 @@ fork手順自体は、以下を参考にすると分かりやすい。
 git clone https://github.com/seigot/test_pull_request
 ```
 
+https://github.com/xxx/test_pull_request (ユーザ名：xxx のリポジトリ)をcloneする場合
+
+```
+# 例）ユーザ名"seigot"の場合の例、ユーザ名は各自のアカウント名に変更する
+git clone https://github.com/xxx/test_pull_request
+```
+
 forkしたリポジトリに変更を加える
 
 ```
@@ -60,6 +67,7 @@ git push origin test_branch      # forkしたリポジトリへ変更を登録
 7.ユーザが所有するフォークでは、上流のリポジトリに対するプッシュアクセス件を持つ人がプルリクエストに変更することを許したくない場合は、Allow edits from maintainers（メンテナからの編集を許可）の選択を解除してください。<br>
 8.レビューの準備ができたプルリクエストを作成するには、Create Pull Request（プルリクエストの作成）をクリックしてください。<br>
 
+以上
 
 # 参考
 [GitHub-アカウントの準備と設定](https://git-scm.com/book/ja/v2/GitHub-アカウントの準備と設定)<br>
