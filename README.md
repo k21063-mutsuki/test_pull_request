@@ -45,7 +45,7 @@ forkしたリポジトリに変更を加える
 
 ```
 cd test_pull_request             # ディレクトリを移動
-checkout -b test_branch main     # 変更用ブランチへ移動
+git checkout -b test_branch main     # 変更用ブランチへ移動
 echo "test" >> README.md         # READMEを変更（最終行に"test"を追記）
 git add README.md                # 変更対象に登録
 git commit -m "test commit"      # commit messageを記載
